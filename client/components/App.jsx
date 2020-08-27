@@ -9,7 +9,17 @@ class App extends React.Component {
 	render() {
 		return (
 			<>
+        <div className='pixelContainer'>
 				<Pixel />
+        <Pixel />
+        <Pixel />
+        <Pixel />
+        <Pixel />
+        <Pixel />
+        <Pixel />
+        <Pixel />
+        <Pixel />
+        </div>
 			</>
 		);
 	}
