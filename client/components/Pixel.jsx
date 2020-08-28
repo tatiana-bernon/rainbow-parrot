@@ -42,7 +42,7 @@ class Pixel extends React.Component {
 			style: {
 				width,
 				height,
-				backgroundColor: '#40f2ff'
+				backgroundColor: 'white'
 			}
 		})
 	}
