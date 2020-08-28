@@ -11,8 +11,7 @@ class Pixel extends React.Component {
 			style: {
 				height: height,
 				width: width,
-				backgroundColor: 'red',
-				opacity: 0,
+				backgroundColor: 'white',
 			},
 		};
 	}
