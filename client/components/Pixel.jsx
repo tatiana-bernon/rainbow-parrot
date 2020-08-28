@@ -1,7 +1,7 @@
 import React from 'react';
 
-const width = 50;
-const height = 50;
+const width = 25;
+const height = 25;
 
 class Pixel extends React.Component {
 	constructor(props) {
@@ -12,6 +12,7 @@ class Pixel extends React.Component {
 				height: height,
 				width: width,
 				backgroundColor: 'red',
+				opacity: 0,
 			},
 		};
 	}
@@ -19,9 +20,9 @@ class Pixel extends React.Component {
 	clickHandler = (evt) => {               // event handler function 
         this.setState({                 // same as function (evt) { this.setState()... }
             style: {
-                width: width,           // trying out width: width vs just width below
+                width: width,           
                 height: height,
-                backgroundColor: 'green'
+                backgroundColor: '#00ff33'
             }
         })
 	}
@@ -32,7 +33,7 @@ class Pixel extends React.Component {
             style: {
                 width,
                 height,
-                backgroundColor: 'black'
+                backgroundColor: '#ff4040'
             }
         })
 	}
@@ -42,7 +43,7 @@ class Pixel extends React.Component {
 			style: {
 				width,
 				height,
-				backgroundColor: 'blue'
+				backgroundColor: '#40f2ff'
 			}
 		})
 	}

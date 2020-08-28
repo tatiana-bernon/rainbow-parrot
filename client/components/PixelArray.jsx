@@ -4,7 +4,7 @@ import Pixel from './Pixel'
 
 const PixelArray = () => {          
   return (
-    Array.from({length: 100}, (item, i) => <Pixel key={i}/>)   
+    Array.from({length: 5015}, (item, i) => <Pixel key={i}/>)   
   )
 }
 
