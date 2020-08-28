@@ -6,6 +6,7 @@ const height = 50;
 class Pixel extends React.Component {
 	constructor(props) {
 		super(props);
+
 		this.state = {
 			style: {
 				height: height,
@@ -14,8 +15,57 @@ class Pixel extends React.Component {
 			},
 		};
 	}
+
+	clickHandler = (evt) => {               // event handler function 
+        this.setState({                 // same as function (evt) { this.setState()... }
+            style: {
+                width: width,           // trying out width: width vs just width below
+                height: height,
+                backgroundColor: 'green'
+            }
+        })
+	}
+
+	onContextMenu = (evt) => {
+        evt.preventDefault()
+        this.setState({
+            style: {
+                width,
+                height,
+                backgroundColor: 'black'
+            }
+        })
+	}
+		
+	onDoubleClick = (evt) => {
+		this.setState({
+			style: {
+				width,
+				height,
+				backgroundColor: 'blue'
+			}
+		})
+	}
+
+	onDragEnter = (evt) => {
+		this.setState({
+			style: {
+				width,
+				height,
+				backgroundColor: 'purple'
+				}
+			})
+		}
+	
 	render() {
-		return <div style={this.state.style}></div>;
+		return (
+		<div style={this.state.style}
+		onClick={this.clickHandler}
+		onContextMenu={this.onContextMenu}
+		onDoubleClick={this.onDoubleClick}
+		draggable='true' onDragEnter={this.onDragEnter}>
+		</div>
+		)
 	}
 }
 
