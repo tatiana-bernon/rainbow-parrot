@@ -1,4 +1,5 @@
-# Rainbow-Parrot ![ Alt text](https://media.giphy.com/media/l3q2zVr6cu95nF6O4/giphy.gif)
+# Rainbow-Parrot
+![ Alt text](https://media.giphy.com/media/l3q2zVr6cu95nF6O4/giphy.gif)
 
 >This project was created in order to practice more of React-routing. We decided as a team, to create a coloring space page, a simple project with a pinch of playfulness on a busy FridayProject Day!
 
