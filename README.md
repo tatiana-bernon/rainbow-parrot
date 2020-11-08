@@ -1,35 +1,34 @@
-# TBC
+# Rainbow-Parrot
 
-Bhavisha, Tati, Nimesh, Marika -- Week 4 project
+>This project was created in order to practice more of React-routing. We decided as a team, to create a coloring space page, a simple project with a pinch of playfulness on a busy FridayProject Day!
 
-# Set up
+![alt text](https://github.com/pohutukawa-2020/GLTE/blob/dff111da58a49a95b279b2ba6f3f9eaa83510dec/server/public/glte.jpeg)
 
-clone repo, npm i, npm run dev open up local host
 
-# Files we need
+## Setup
 
-server file with index.js and server.js public file with index.html and main.css
-app.jsx index.js
+To get started, clone this repo and then:
 
-# Steps
+```
+cd rainbow-parrot
+npm install
+npm run dev
+```
 
-Create a component that has one job: return a <div> using JSX.
+You can find the server running on [http://localhost:3000](http://localhost:3000).
 
-Place your < Pixel /> component in the render method of < App / so that it'll
-make it into the DOM.
-
-corresponds to the style attribute a height a width a background colour
-
-Add lots of pixels
-
-(call super)
-
-Set the initial value of this.state
-
-change your component JSX to refer to this.state.style
-
-Add in randomHexColor
-
-Add our clickHandlers
-
-Return an array of pixels
+## For the cool Style at the top of the page, see this code in the CSS file:
+```
+.rainbow-text {
+	text-align: center;
+	background-image: linear-gradient(
+		to left,
+		violet,
+		indigo,
+		blue,
+		green,
+		yellow,
+		orange,
+		red
+	);
+```
