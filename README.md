@@ -3,7 +3,7 @@
 
 >This project was created in order to practice more of React-routing. We decided as a team, to create a coloring space page, a simple project with a pinch of playfulness on a busy FridayProject Day!
 
-![alt text](https://github.com/pohutukawa-2020/GLTE/blob/dff111da58a49a95b279b2ba6f3f9eaa83510dec/server/public/glte.jpeg)
+![alt text](https://github.com/tatiana-bernon/rainbow-parrot/blob/f61c90e5dac78d30d3c27758ceaef91c8f731405/rainbow-parrot.jpeg)
 
 
 ## Setup
