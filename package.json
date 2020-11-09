@@ -4,12 +4,14 @@
   "description": "Bhavisha, Tati, Nimesh, Marika -- Week 4 project",
   "main": "index.js",
   "scripts": {
-    "start": "run-p webpack server",
-    "dev": "run-p client server",
-    "webpack": "webpack",
-    "client": "webpack --watch",
+    "client": "webpack-dev-server --hot --inline",
+    "dev": "run-p dev:client dev:server",
+    "dev:client": "webpack --watch",
+    "dev:server": "nodemon server",
+    "start": "node server",
+    "build": "webpack",
     "server": "node server",
-    "test": "jest --watch --noStackTrace"
+    "test": "jest --watchAll"
   },
   "babel": {
     "presets": [
