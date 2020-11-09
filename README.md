@@ -33,3 +33,5 @@ You can find the server running on [http://localhost:3000](http://localhost:3000
 		red
 	);
 ```
+## Deployed app:
+url: https://rainbow-parrot.herokuapp.com/
